@@ -35,21 +35,27 @@
 
 - [httpasyncclient-4.1.3](http://central.maven.org/maven2/org/apache/httpcomponents/httpasyncclient/4.1.3/httpasyncclient-4.1.3.jar?spm=a2c4g.11186623.2.15.5ada3b14kRS3c0&file=httpasyncclient-4.1.3.jar)
 
-- [httpclient](http://central.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar)
+- [httpclient-4.5.3](http://central.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar)
 
-- [httpcore](http://central.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar)
+- [httpcore-4.4.6](http://central.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar)
 
-- [httpcore-nio](http://central.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.6/httpcore-nio-4.4.6.jar)
+- [httpcore-nio-4.4.6](http://central.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.6/httpcore-nio-4.4.6.jar)
 
-- [fastjson](http://central.maven.org/maven2/com/alibaba/fastjson/1.2.35/fastjson-1.2.35.jar)
+- [fastjson-1.2.54](http://central.maven.org/maven2/com/alibaba/fastjson/1.2.54/fastjson-1.2.54.jar)
 
-- [slf4j-api](http://central.maven.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar)
+- [slf4j-api-1.7.25](http://central.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar)
 
-- [junit](http://central.maven.org/maven2/junit/junit/4.12/junit-4.12.jar)
+- [junit-4.12](http://central.maven.org/maven2/junit/junit/4.12/junit-4.12.jar)
 
-- [metric-core](http://central.maven.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar)
+- [metric-core-2.2.0](http://central.maven.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar)
 
-- [commons-cli](http://central.maven.org/maven2/commons-cli/commons-cli/1.4/commons-cli-1.4.jar)
+- [commons-cli-1.4](http://central.maven.org/maven2/commons-cli/commons-cli/1.4/commons-cli-1.4.jar)
+
+- [guava-27.0.1-jre](http://central.maven.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar)
+
+  
+
+- 
 
   &nbsp;&nbsp;&nbsp;put all the jar package to the project lib then you can use this SDK .
 
