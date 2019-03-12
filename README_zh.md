@@ -52,6 +52,8 @@
 
 - [guava-27.0.1-jre](http://central.maven.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar)
 
+- [commons-logging-1.1.1](http://central.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar)
+
   &nbsp;&nbsp;&nbsp;put all the jar package to the project lib then you can use this SDK .
 
   &nbsp;&nbsp;&nbsp;&nbsp;把所有的用到的jar包include到build path，或者放到你自己的lib库文件夹，引入到项目即可；
