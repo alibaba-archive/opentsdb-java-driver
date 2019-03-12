@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>java-driver-parent</artifactId>
+	<groupId>net.opentsdb.driver</groupId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Opentsdb java driver</name>
+
+	<modules>
+		<module>java-driver-core</module>
+		<module>java-driver-test</module>
+		<module>java-driver-example</module>
+	</modules>
+
+	<properties>
+		<junit.version>4.12</junit.version>
+		<fastjson.version>1.2.54</fastjson.version>
+		<slf4j.version>1.7.25</slf4j.version>
+		<http.client.version>4.5.3</http.client.version>
+		<http.core.version>4.4.6</http.core.version>
+		<http.nio.version>4.4.6</http.nio.version>
+		<async.client.version>4.1.3</async.client.version>
+		<commons.version>1.4</commons.version>
+		<metric.core.version>2.2.0</metric.core.version>
+		<commons.logging.version>1.1.1</commons.logging.version>
+		<guava.version>27.0.1-jre</guava.version>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.5.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.17</version>
+				<configuration>
+					<runOrder>alphabetical</runOrder>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
